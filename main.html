@@ -24,9 +24,14 @@
 		<input type="Radio" required="Yes" id="gender_f">
 		<br>
 
-		<label for="cars">Cars</label>
-		<input type=="select" required="Yes" id="cars" placeholder="Please choose an option">
-		<br>
+		<label for="cars">Cars Brands</label>
+        <select name="cars" id="cars">
+			<option value="--Please choose an option--" disabled selected>--Please choose an option--</option>
+            <option id="cars" value="Mahindra Scorpi" required>Mahindra Scorpi</option>
+		    <option id="cars" value="Thar" required>Thar</option>
+            <option id="cars" value="Audi" required>Audi</option>
+		</select>
+        <br>
 		
 		<input type="Number" required="Yes" id="age" placeholder="age">
 		<br>
